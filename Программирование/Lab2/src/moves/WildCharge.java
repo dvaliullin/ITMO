@@ -1,4 +1,4 @@
-package move;
+package moves;
 import ru.ifmo.se.pokemon.*;
 
 
@@ -15,4 +15,5 @@ public class WildCharge extends PhysicalMove {
     protected String describe() {
         return "применяет физическую электрическую атаку";
     }
+
 }

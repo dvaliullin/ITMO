@@ -1,4 +1,4 @@
-package move;
+package moves;
 import ru.ifmo.se.pokemon.*;
 
 
@@ -16,3 +16,4 @@ public class DracoMeteor extends SpecialMove {
         return "применяет специальную драконью атаку";
     }
 }
+

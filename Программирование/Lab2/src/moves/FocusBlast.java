@@ -1,4 +1,4 @@
-package move;
+package moves;
 import ru.ifmo.se.pokemon.*;
 
 
@@ -18,3 +18,4 @@ public class FocusBlast extends SpecialMove {
         return "применяет специальную боевую атаку";
     }
 }
+

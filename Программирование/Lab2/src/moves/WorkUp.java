@@ -1,4 +1,4 @@
-package move;
+package moves;
 import ru.ifmo.se.pokemon.*;
 
 
@@ -15,3 +15,4 @@ public class WorkUp extends StatusMove {
         return "применяет статусную нормальную атаку";
     }
 }
+

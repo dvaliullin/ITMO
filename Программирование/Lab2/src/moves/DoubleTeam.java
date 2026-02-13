@@ -1,4 +1,4 @@
-package move;
+package moves;
 import ru.ifmo.se.pokemon.*;
 
 
@@ -17,3 +17,4 @@ public class DoubleTeam extends StatusMove {
         return "применяет статусную нормальную атаку";
     }
 }
+

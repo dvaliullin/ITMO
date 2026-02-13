@@ -1,4 +1,4 @@
-package move;
+package moves;
 import ru.ifmo.se.pokemon.*;
 
 
@@ -11,3 +11,4 @@ public class DisarmingVoice extends SpecialMove {
         return "применяет специальную феерическую атаку";
     }
 }
+

@@ -1,4 +1,4 @@
-package move;
+package moves;
 import ru.ifmo.se.pokemon.*;
 
 public class Thunder extends SpecialMove {
@@ -16,3 +16,4 @@ public class Thunder extends SpecialMove {
         return "применяет специальную электрическую атаку";
     }
 }
+

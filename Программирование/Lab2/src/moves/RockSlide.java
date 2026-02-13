@@ -1,4 +1,4 @@
-package move;
+package moves;
 import ru.ifmo.se.pokemon.*;
 
 
@@ -17,4 +17,5 @@ public class RockSlide extends PhysicalMove {
     public String describe() {
         return "применяет физическую каменную атаку";
     }
+
 }

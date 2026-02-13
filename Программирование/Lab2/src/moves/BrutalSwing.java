@@ -1,4 +1,4 @@
-package move;
+package moves;
 import ru.ifmo.se.pokemon.*;
 
 public class BrutalSwing extends PhysicalMove {
@@ -11,3 +11,4 @@ public class BrutalSwing extends PhysicalMove {
         return "применяет физическую темную атаку";
     }
 }
+

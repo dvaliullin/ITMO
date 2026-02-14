@@ -1,6 +1,6 @@
-from MainTask import deserialize
-from DopTask1 import serialize_toml
-from DopTask3 import serialize_xml
+from Main.MainTask import deserialize
+from Dop1.DopTask1 import serialize_toml
+from Dop3.DopTask3 import serialize_xml
 import yaml
 import toml
 import time
@@ -31,3 +31,4 @@ for i in range(100):
 toml_time_2 = time.time() - start_time
 
 print('yaml to toml with libs time:',toml_time_2)
+

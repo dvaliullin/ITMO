@@ -13,6 +13,7 @@ public class RockSlide extends PhysicalMove {
             Effect.flinch(p);
         }
     }
+
     @Override
     public String describe() {
         return "применяет физическую каменную атаку";

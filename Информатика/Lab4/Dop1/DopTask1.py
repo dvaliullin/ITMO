@@ -1,4 +1,4 @@
-from MainTask import deserialize
+from Main.MainTask import deserialize
 
 def serialize_toml(data, current_key="", level=0):
     result = []
@@ -34,3 +34,4 @@ toml = serialize_toml(result)
 
 with open('расписание.toml', 'w', encoding='utf-8') as f:
     f.write(toml)
+

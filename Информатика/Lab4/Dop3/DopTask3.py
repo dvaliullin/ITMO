@@ -1,4 +1,4 @@
-from MainTask import deserialize
+from Main.MainTask import deserialize
 
 def serialize_xml(data, root_name, level=0):
     indent = "  " * level
@@ -60,3 +60,4 @@ with open('расписание.xml', 'w', encoding='utf-8') as f:
     f.write(xml_output)
 
 print(xml_output)
+

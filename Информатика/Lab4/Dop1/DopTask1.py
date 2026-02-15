@@ -26,12 +26,13 @@ def serialize_toml(data, current_key="", level=0):
         
     return "\n".join(result)
 
-with open('расписание.yaml', 'r', encoding='utf-8') as f:
+with open('Data/расписание.yaml', 'r', encoding='utf-8') as f:
     yaml = f.read()
 
 result = deserialize(yaml)
 toml = serialize_toml(result)
 
-with open('расписание.toml', 'w', encoding='utf-8') as f:
+with open('Data/расписание.toml', 'w', encoding='utf-8') as f:
     f.write(toml)
+
 

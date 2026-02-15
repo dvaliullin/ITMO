@@ -5,7 +5,7 @@ import yaml
 import toml
 import time
 
-with open('расписание.yaml', 'r', encoding='utf-8') as f:
+with open('Data/расписание.yaml', 'r', encoding='utf-8') as f:
     yaml_data = f.read()
 
 start_time = time.time()
@@ -31,4 +31,5 @@ for i in range(100):
 toml_time_2 = time.time() - start_time
 
 print('yaml to toml with libs time:',toml_time_2)
+
 

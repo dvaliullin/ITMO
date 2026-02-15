@@ -50,14 +50,15 @@ def xml_replace(text):
     
     return text
 
-with open('расписание.yaml', 'r', encoding='utf-8') as f:
+with open('Data/расписание.yaml', 'r', encoding='utf-8') as f:
     yaml_text = f.read()
 
 result = deserialize(yaml_text)
 xml_output = serialize_xml(result, "расписание")
 
-with open('расписание.xml', 'w', encoding='utf-8') as f:
+with open('Data/расписание.xml', 'w', encoding='utf-8') as f:
     f.write(xml_output)
 
 print(xml_output)
+
 

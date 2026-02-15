@@ -30,12 +30,13 @@ def deserialize(yaml):
             
     return result
 
-with open('расписание.yaml', 'r', encoding='utf-8') as f:
+with open('Data/расписание.yaml', 'r', encoding='utf-8') as f:
     yaml = f.read()
 
 result = deserialize(yaml)
 print(result)
 
 
-with open('MainTaskResult.txt', 'w', encoding='utf-8') as f:
+with open('Data/MainTaskResult.txt', 'w', encoding='utf-8') as f:
     f.write(str(result))
+

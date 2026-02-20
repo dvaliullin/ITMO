@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
         Survivor survivor = new Survivor("Робинзон Крузо");
         Savages savages = new Savages("Дикари");
-        Island island = new Island("Остров");
+        Island island = new Island("Остров Эпштейна");
         LocalDate startDate = LocalDate.of(1659, 5, 25);
 
         island.addVisitor(survivor);
@@ -15,3 +15,4 @@ public class Main {
         island.startEvents(startDate);
         }
     }
+

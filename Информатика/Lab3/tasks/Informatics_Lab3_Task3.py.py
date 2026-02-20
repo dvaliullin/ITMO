@@ -27,8 +27,5 @@ for test in tests:
     basics = [x.group(1) for x in re.finditer(pattern,test[0]) if len(re.findall(x.group(1),test[0],re.IGNORECASE))>1]
     endings = [x.group(2) for x in re.finditer(pattern,test[0]) if len(re.findall(x.group(1),test[0],re.IGNORECASE))>1]
     print(re.sub(rf'({basics[test[1]-1]}){pril_end}',r'\1'+endings[test[1]-1],test[0],0,re.IGNORECASE))
-#print('\n')
-#print(r'\n')
-print('\b')
-print(r'\d+')
     
+

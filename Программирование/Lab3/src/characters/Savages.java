@@ -68,7 +68,7 @@ public class Savages extends IslandVisitor implements Attackable {
         setDepartureDate(arrivalDate.plusDays(getStayDuration()));
     }
 
-
+    @Override
     public void leave(LocalDate date) {
         this.isOnIsland = false;
         setDepartureDate(date);
@@ -175,3 +175,4 @@ public class Savages extends IslandVisitor implements Attackable {
         return "";
     }
 }
+

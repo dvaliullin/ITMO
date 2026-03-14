@@ -10,9 +10,9 @@ ST N
 LD F
 ST C
 loop_start: LD (C)+
-BPL iter_count
+BPL loop_count
 ADD (R)+
-iter_count: LOOP $N
+loop_count: LOOP $N
 JUMP loop_start
 HLT
 ORG 0x555

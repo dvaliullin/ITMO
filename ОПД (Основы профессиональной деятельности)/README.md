@@ -1,7 +1,7 @@
 # 1 семестр
 - Лектор: Клименков Сергей Викторович
 - Практик: Зайцева Ирина Сергеевна
-- Журнал:
+- Журнал: https://docs.google.com/spreadsheets/d/1axz4QToxSxui8xzfJcDNkuKp6CPtGmb9I38Bm1Bu1uw/edit?usp=drivesdk
 - Оценка: Зачет (68.25/103) 
 - [Тренажер для второй рубежки](https://se.ifmo.ru/~ninomt/program-tracing/)
   

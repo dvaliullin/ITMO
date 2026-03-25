@@ -1,7 +1,7 @@
 # 1 семестр
 - Лектор: Гаврилов Антон Валерьевич
 - Практик: Коновалов Арсений Антонович
-- Журнал:
+- Журнал: https://docs.google.com/spreadsheets/d/1hcDXJwH-PKi9Zhh8hm1q-EKOWRb0dGazYG5rik2R6lY/edit?usp=drivesdk
 - Оценка: Зачет (68.4/103) 
 
 # 2 семестр

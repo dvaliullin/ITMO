@@ -1,4 +1,4 @@
 - Лектор: Балакшин Павел Валерьевич
 - Практик: Марухленко Даниил Сергеевич
-- Журнал:
+- Журнал: https://docs.google.com/spreadsheets/d/1pXft1zyZaWcz0hQVf0ms5CXeKGunhyizR9MA6fzQi_I/edit?usp=drivesdk
 - Оценка: 4B (88.38/103)

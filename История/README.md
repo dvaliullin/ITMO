@@ -3,7 +3,7 @@
 ## 1 семестр
 - Лектор: Белоусов Александр Сергеевич
 - Практик: Белоусов Александр Сергеевич
-- Журнал:
+- Журнал: https://docs.google.com/spreadsheets/d/1g49kmP2p42iiGiR6iMiy_uIXSdecwaXwkdDpMIE8ukA/edit?usp=drivesdk
 - Оценка: Зачет (61/100)
 
 ## 2 семестр

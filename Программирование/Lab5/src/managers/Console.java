@@ -46,7 +46,6 @@ public class Console {
                     outputManager.println("Неизвестная команда. Введите 'help' для списка команд.");
                 }
             } catch (NoSuchElementException e) {
-                //outputManager.println("\nЗавершение программы...");
                 break;
             } catch (Exception e) {
                 outputManager.printError(e.getMessage());

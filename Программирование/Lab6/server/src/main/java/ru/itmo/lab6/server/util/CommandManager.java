@@ -56,6 +56,10 @@ public class CommandManager {
         return commands.stream().filter(p -> p.getName().equals(name)).findFirst().orElse(null);
     }
 
+    /**
+    * @param commandName
+    * @return true, если есть команда с таким именем, иначе false
+    */
     public boolean containsCommand(String commandName) {
         return commands.contains(getCommandByName(commandName));
     }
